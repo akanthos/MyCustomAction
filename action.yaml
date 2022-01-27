@@ -11,4 +11,4 @@ runs:
   steps:
       - name: Setup BuildX
         shell: bash
-        run: echo "Hello, World!"
+        run: echo "Hello, ${{ inputs.valueToPrint }}!"
