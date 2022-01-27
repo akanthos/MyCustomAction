@@ -1,0 +1,13 @@
+name: "Try something out"
+description: "..."
+
+inputs:
+  valueToPrint:
+    description: "Value to print"
+    required: true  
+
+runs:
+  using: "composite"
+  steps:
+      - name: Setup BuildX
+        run: echo "Hello, World!"
