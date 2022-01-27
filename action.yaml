@@ -10,4 +10,5 @@ runs:
   using: "composite"
   steps:
       - name: Setup BuildX
+        shell: bash
         run: echo "Hello, World!"
